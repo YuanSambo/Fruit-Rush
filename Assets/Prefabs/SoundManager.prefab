@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3571018943774759221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3571018943774759227}
+  - component: {fileID: 3571018943774759226}
+  - component: {fileID: 3571018943774759224}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: SoundManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3571018943774759227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3571018943774759221}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 512, y: 384, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3571018943774759226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3571018943774759221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 066a43431f1ce4a539b1236fd961a060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sounds:
+  - Name: Jump
+    Clip: {fileID: 8300000, guid: 7fb72b9f24c5e48bb87a7c0d7062e08e, type: 3}
+    Volume: 0.3
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Background
+    Clip: {fileID: 8300000, guid: 90eae78e8ce85a849b5b0ca11b2de641, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: Collect
+    Clip: {fileID: 8300000, guid: b6ce02d92464d4a558940fc90166bc6e, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Dead
+    Clip: {fileID: 8300000, guid: 3056f05a4fcb34e2494d40e57c49e028, type: 3}
+    Volume: 0.5
+    Pitch: 0.7
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Choose
+    Clip: {fileID: 8300000, guid: 1086d01d8a9e043b299b106df3c0b5a1, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    Source: {fileID: 0}
+--- !u!114 &3571018943774759224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3571018943774759221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4baaefec9e742a79fad1128689abbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
